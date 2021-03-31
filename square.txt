@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+
+int main()
+{
+	float side, area, perimeter;
+	printf("\nenter the length of side:");
+	scanf("%f", &side);
+	area = side * side;
+	perimeter = 4 * side;
+	printf("\narea = %f", area);
+	printf("\nperimeter = %f", perimeter);
+	
+	return 0;
+	
+}
