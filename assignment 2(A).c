@@ -1,9 +1,9 @@
-
-  
+ 
 #include <stdio.h>
 #include <stdlib.h>
 
 int main()
+  
 {
     FILE *file;
 
@@ -48,4 +48,5 @@ int main()
     fclose(file);
 
     return 0;
+  
 }
